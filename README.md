@@ -15,34 +15,21 @@ Para la exposicion
 <table class="tg">
 <thead>
   <tr>
-    <th class="tg-0pky"></th>
-    <th class="tg-0pky"></th>
-    <th class="tg-0pky"></th>
-    <th class="tg-0pky"></th>
-    <th class="tg-0pky"></th>
+    <th class="tg-0pky">Nombre del sensor</th>
+    <th class="tg-0pky">Costo del sensor</th>
+    <th class="tg-0pky">Lugar donde se encontro</th>
   </tr>
 </thead>
 <tbody>
   <tr>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky"></td>
+    <td class="tg-0pky">LED Bar Graph</td>
+    <td class="tg-0pky">122.54</td>
+    <td class="tg-0pky">Ebay</td>
   </tr>
   <tr>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky"></td>
-  </tr>
-  <tr>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky"></td>
+    <td class="tg-0pky">Analog Joystick</td>
+    <td class="tg-0pky">$254.38</td>
+    <td class="tg-0pky">Shop.Pimoroni</td>
   </tr>
 </tbody>
 </table>
