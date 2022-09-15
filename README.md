@@ -2,10 +2,6 @@
 
 Para la exposicion
 ----
-
-
-<style type="text/css">
-
 </style>
 <table class="tg">
 <thead>
