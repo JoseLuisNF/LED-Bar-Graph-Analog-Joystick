@@ -2,7 +2,6 @@
 
 Para la exposicion
 ----
-</style>
 <table class="tg">
 <thead>
   <tr>
