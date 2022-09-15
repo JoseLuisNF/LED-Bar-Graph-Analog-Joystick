@@ -25,4 +25,4 @@ Para la exposicion
 </table>
 
 ![AHAHAHA](https://user-images.githubusercontent.com/99285798/190015378-798b7335-c80f-464b-a1c7-bc71c640e2d1.png)
-![image](https://user-images.githubusercontent.com/99285798/190511156-94d88075-9040-49bf-9926-222eb160a989.png)
+![image](https://user-images.githubusercontent.com/99285798/190511239-eae2feda-4400-4f2c-a572-9b02f31f89c1.png)
