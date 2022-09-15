@@ -27,3 +27,10 @@ Exposicion de Sistemas Programables
 </table>
 
 ![image](https://user-images.githubusercontent.com/99285798/190511239-eae2feda-4400-4f2c-a572-9b02f31f89c1.png)
+Condiciones de Uso:
+1. Conectar 5 pines de la pico al joystick
+GND a GND (Cualquier pin de tierra)
++5V a 3V3 Out (pin 36). Si, a 5V el Joystick funcionara con el 3V3 con la energia de la pico
+VRx a GP27 / ADC1 (pin fisico 32)
+VRy a GP26 / ADC0 (pin fisico 31)
+SW a GP16 (pin fisico 21). Esto funcionara con la mayoria de los GPI's
