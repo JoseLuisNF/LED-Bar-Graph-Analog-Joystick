@@ -119,3 +119,7 @@ LED Bar Graph
 
 ![image](https://user-images.githubusercontent.com/99285798/190718306-d688994a-271c-42e2-bb79-d0d63938c3ff.png)
 
+Para la utilizacion del LED Bar Graph es necesario tener una cantidad de resistencias de 22 Ohms, no obstante dada la cantidad de resistencias requeridas se deben de cambiar por un multiresistor para que puedan cubrir todos los puertos del Bar Graph como se muestra en la siguiente imagen
+
+![image](https://user-images.githubusercontent.com/99285798/190718792-453a6b02-527d-45f2-af16-b52bff4f46c4.png)
+
