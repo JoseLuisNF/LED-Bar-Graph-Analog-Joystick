@@ -27,6 +27,7 @@ Exposicion de Sistemas Programables
 </table>
 
 ----
+Joystick Analogo
 
 ![image](https://user-images.githubusercontent.com/99285798/190511239-eae2feda-4400-4f2c-a572-9b02f31f89c1.png)
 Condiciones de Uso:
