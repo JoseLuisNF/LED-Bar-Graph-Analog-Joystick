@@ -37,17 +37,33 @@ SW a GP16 (pin fisico 21). Esto funcionara con la mayoria de los GPI's
 
 2. Iniciar un programa en Micropython IDE
 3. Importar los modulos necesarios
+
 from machine import Pin, ADC
 import utime
+
 4. Crear variables ejeX y ejeY y asignarlas a los GP en pines 26 y 27
+
 xAxis = ADC(Pin(27))
 yAxis = ADC(Pin(26))
+
 5. Crar una variable boton y asignarla a un objeto pin
+
 button = Pin(16,Pin.IN, Pin.PULL_UP)
+
 6. Crear un bucle continuo que revise la impresion de los valores X-Y
+
 while True:
     xValue = xAxis.read_u16()
     yValue = yAxis.read_u16()
     buttonValue= button.value()
     print(str(xValue) +", " + str(yValue) + " -- " + str(buttonValue))
     utime.sleep(0.1)
+
+7. Empezar la ejecucion del codigo y ver los resultados en Mycropython
+8. Detener ejecucion
+9. Crear variables de estado de X, Y y boton. Colocarlos dentro del bucle, dandole valor default al joystick
+
+xStatus = "middle"
+yStatus = "middle"
+buttonStatus = "not pressed"
+
