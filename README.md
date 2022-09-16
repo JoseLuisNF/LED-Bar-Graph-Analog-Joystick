@@ -15,7 +15,7 @@ Exposicion de Sistemas Programables
 <tbody>
   <tr>
     <td class="tg-0pky">LED Bar Graph</td>
-    <td class="tg-0pky">122.54</td>
+    <td class="tg-0pky">$122.54</td>
     <td class="tg-0pky">Ebay</td>
   </tr>
   <tr>
