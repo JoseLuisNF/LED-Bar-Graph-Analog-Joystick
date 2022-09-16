@@ -140,6 +140,7 @@ time.sleep(1)
 
 while True:
     for led in leds:
+    
        GPIO.output(led, 1) # ON
        time.sleep(0.1)
        GPIO.output(led, 0) # OFF
