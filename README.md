@@ -126,6 +126,8 @@ while True:
     print("X: " + xStatus + ", Y: " + yStatus + " -- button " + buttonStatus)
     utime.sleep(0.1)
 
+Micro Python Use: https://wokwi.com/projects/342991925732704850
+
 ----
 LED Bar Graph
 
