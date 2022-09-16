@@ -56,30 +56,42 @@ button = Pin(16,Pin.IN, Pin.PULL_UP)
 6. Crear un bucle continuo que revise la impresion de los valores X-Y
 
 while True:
-    xValue = xAxis.read_u16()
-    yValue = yAxis.read_u16()
-    buttonValue= button.value()
-    print(str(xValue) +", " + str(yValue) + " -- " + str(buttonValue))
-    utime.sleep(0.1)
+
+   xValue = xAxis.read_u16()
+   
+   yValue = yAxis.read_u16()
+   
+   buttonValue= button.value()
+   
+   print(str(xValue) +", " + str(yValue) + " -- " + str(buttonValue))
+    
+   utime.sleep(0.1)
 
 7. Empezar la ejecucion del codigo y ver los resultados en Mycropython
 8. Detener ejecucion
 9. Crear variables de estado de X, Y y boton. Colocarlos dentro del bucle, dandole valor default al joystick
 
 xStatus = "middle"
+
 yStatus = "middle"
+
 buttonStatus = "not pressed"
 
 10. Usar If/Else de forma adecuada en los controles
  if xValue <= 600:
         xStatus = "left"
-    elif xValue >= 60000:
+        
+   elif xValue >= 60000:
         xStatus = "right"
-    if yValue <= 600:
+        
+    
+   if yValue <= 600:
         yStatus = "up"
-    elif yValue >= 60000:
+        
+   elif yValue >= 60000:
         yStatus = "down"
-    if buttonValue == 0:
+   
+   if buttonValue == 0:
         buttonStatus = "pressed"
 11. Imprimir las variables de estado
 
@@ -134,13 +146,17 @@ GPIO.setmode(GPIO.BOARD)
 leds = [3,5,7,10,11,13,15,16,18]
 
 for led in leds:
-    GPIO.setup(led, GPIO.OUT, initial=0)
+    
+   GPIO.setup(led, GPIO.OUT, initial=0)
 
 time.sleep(1)
 
 while True:
-    for led in leds:
+
+   for led in leds:
     
-       GPIO.output(led, 1) # ON
-       time.sleep(0.1)
-       GPIO.output(led, 0) # OFF
+   GPIO.output(led, 1) # ON
+   
+   time.sleep(0.1)
+   
+   GPIO.output(led, 0) # OFF
