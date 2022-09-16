@@ -123,3 +123,24 @@ Para la utilizacion del LED Bar Graph es necesario tener una cantidad de resiste
 
 ![image](https://user-images.githubusercontent.com/99285798/190718792-453a6b02-527d-45f2-af16-b52bff4f46c4.png)
 
+El codigo encontrado para Python en la utilizacion del LED Bar Graph es el siguiente: 
+#!/usr/bin/python
+ 
+import time
+import RPi.GPIO as GPIO
+
+GPIO.setmode(GPIO.BOARD)
+
+leds = [3,5,7,10,11,13,15,16,18]
+
+for led in leds:
+    GPIO.setup(led, GPIO.OUT, initial=0)
+
+time.sleep(1)
+
+while True:
+
+    for led in leds:
+       GPIO.output(led, 1) # ON
+       time.sleep(0.1)
+       GPIO.output(led, 0) # OFF
