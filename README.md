@@ -162,3 +162,6 @@ while True:
    time.sleep(0.1)
    
    GPIO.output(led, 0) # OFF
+
+
+Codigo de simulacion en Python: https://wokwi.com/projects/342991898860847698
