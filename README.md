@@ -26,6 +26,8 @@ Exposicion de Sistemas Programables
 </tbody>
 </table>
 
+----
+
 ![image](https://user-images.githubusercontent.com/99285798/190511239-eae2feda-4400-4f2c-a572-9b02f31f89c1.png)
 Condiciones de Uso:
 1. Conectar 5 pines de la pico al joystick
@@ -110,3 +112,9 @@ while True:
         buttonStatus = "pressed"
     print("X: " + xStatus + ", Y: " + yStatus + " -- button " + buttonStatus)
     utime.sleep(0.1)
+
+----
+LED Bar Graph
+
+![image](https://user-images.githubusercontent.com/99285798/190718306-d688994a-271c-42e2-bb79-d0d63938c3ff.png)
+
