@@ -32,6 +32,8 @@ Joystick Analogo
 
 ![image](https://user-images.githubusercontent.com/99285798/190511239-eae2feda-4400-4f2c-a572-9b02f31f89c1.png)
 
+Descripcion:
+
 Un joystick es una palanca que gira 360º y permite controlar una gran cantidad de aparatos. Se utiliza en muchos dispositivos, sobre todo en mandos de videoconsolas. También es muy útil para controlar, de forma sencilla, robots u otros proyectos.
 
 Funciones: Permite detectar cuando presionas la palanca hacia abajo o hacia arriba. 
@@ -140,6 +142,10 @@ Micro Python Use: https://wokwi.com/projects/342991925732704850
 LED Bar Graph
 
 ![image](https://user-images.githubusercontent.com/99285798/190718306-d688994a-271c-42e2-bb79-d0d63938c3ff.png)
+
+Descripcion: 
+
+El LED Bar Graph es una serie de LED (Diodos Electroluminicentes) configurados de forma tal que puedan mostrar una serie de colores para poder iluminarlo. Una version analogica de estas puede ser iluminado solamente usando un potenciometro
 
 Funciones: 
 
