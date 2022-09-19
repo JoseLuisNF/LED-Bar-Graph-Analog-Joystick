@@ -53,7 +53,7 @@ VRy a GP26 / ADC0 (pin fisico 31)
 
 SW a GP16 (pin fisico 21). Esto funcionara con la mayoria de los GPI's
 
-2. Iniciar un programa en Micropython IDE
+2. Iniciar un programa en Python IDE
 3. Importar los modulos necesarios
 
 from machine import Pin, ADC
