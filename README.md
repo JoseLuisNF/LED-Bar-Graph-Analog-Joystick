@@ -31,6 +31,9 @@ Exposicion de Sistemas Programables
 Joystick Analogo
 
 ![image](https://user-images.githubusercontent.com/99285798/190511239-eae2feda-4400-4f2c-a572-9b02f31f89c1.png)
+
+Funciones: 
+
 Condiciones de Uso:
 1. Conectar 5 pines de la pico al joystick
 GND a GND (Cualquier pin de tierra)
@@ -133,6 +136,14 @@ Micro Python Use: https://wokwi.com/projects/342991925732704850
 LED Bar Graph
 
 ![image](https://user-images.githubusercontent.com/99285798/190718306-d688994a-271c-42e2-bb79-d0d63938c3ff.png)
+
+Funciones: 
+
+Visualización del valor del proceso
+ Visualización del desbordamiento de señal
+ Límites de alarma ajustables
+ Señal de salida configurable
+ Visualización de la falla en caso de rotura del sensor o cortocircuito
 
 Para la utilizacion del LED Bar Graph es necesario tener una cantidad de resistencias de 22 Ohms, no obstante dada la cantidad de resistencias requeridas se deben de cambiar por un multiresistor para que puedan cubrir todos los puertos del Bar Graph como se muestra en la siguiente imagen
 
