@@ -1,5 +1,5 @@
 <a href="https://cooltext.com"><img src="https://images.cooltext.com/5619344.png" width="1050" height="88" alt="LED-Bar-Graph & Analog-Joystick" /></a>
-<body style="background-color:blue;">
+<body style="background-color:cyan;">
 </body>
 Exposicion de Sistemas Programables
 
