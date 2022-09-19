@@ -32,7 +32,11 @@ Joystick Analogo
 
 ![image](https://user-images.githubusercontent.com/99285798/190511239-eae2feda-4400-4f2c-a572-9b02f31f89c1.png)
 
-Funciones: 
+Un joystick es una palanca que gira 360º y permite controlar una gran cantidad de aparatos. Se utiliza en muchos dispositivos, sobre todo en mandos de videoconsolas. También es muy útil para controlar, de forma sencilla, robots u otros proyectos.
+
+Funciones: Permite detectar cuando presionas la palanca hacia abajo o hacia arriba. 
+
+Por lo tanto, un joystick facilita una señal analógica para la posición de cada eje, más una señal digital cuando detecta una pulsación.
 
 Condiciones de Uso:
 1. Conectar 5 pines de la pico al joystick
@@ -140,10 +144,14 @@ LED Bar Graph
 Funciones: 
 
 Visualización del valor del proceso
- Visualización del desbordamiento de señal
- Límites de alarma ajustables
- Señal de salida configurable
- Visualización de la falla en caso de rotura del sensor o cortocircuito
+
+Visualización del desbordamiento de señal
+
+Límites de alarma ajustables
+
+Señal de salida configurable
+
+Visualización de la falla en caso de rotura del sensor o cortocircuito
 
 Para la utilizacion del LED Bar Graph es necesario tener una cantidad de resistencias de 22 Ohms, no obstante dada la cantidad de resistencias requeridas se deben de cambiar por un multiresistor para que puedan cubrir todos los puertos del Bar Graph como se muestra en la siguiente imagen
 
